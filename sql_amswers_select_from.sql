@@ -26,7 +26,7 @@ where population > 250000000 or area > 3000000
 
 select name, population, area
 from world
-where population > 250000000 xor area > 3000000
+where population > 250000000 or area > 3000000
 
 select name, ROUND(population/1000000,2) as 'population', ROUND(gdp/1000000000, 2) as 'gdp'
 from world
